@@ -1,1 +1,32 @@
-A
+# Initialise Git repository
+git init
+
+
+### For checking staging area to add###
+# Adding github file
+git add .
+
+### For checking staging area status###
+# To get status
+git status
+
+# To commit file with message
+git commit -m "fixed and learnt git"
+
+# Log of Git
+git log
+
+# Pushing to remote server
+git push
+
+# Difference between codes
+git difftool head
+
+
+# Git undoing things
+
+git checkout master
+git log --oneline
+git revert **ID**
+
+# Pulling the data
